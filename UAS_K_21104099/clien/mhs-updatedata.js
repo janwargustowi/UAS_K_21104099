@@ -10,7 +10,7 @@ function mhsupdatedata(){
     console.log(dta)
 
     xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST","http://localhost/febri/server/dtmhs-updatedata.php");
+    xmlhttp.open("POST","http://localhost/UAS_K_21104099/server/dtmhs-updatedata.php");
     xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     xmlhttp.send(dta);
 

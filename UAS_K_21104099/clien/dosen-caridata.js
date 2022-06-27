@@ -2,7 +2,7 @@ let qs = window.location.search;
 let urlp = new URLSearchParams(qs);
 let carinidn = urlp.get("nidn");
 
-let urltarget = new URL("http://localhost/febri/server/dtdsnnidn.php");
+let urltarget = new URL("http://localhost/UAS_K_21104099/server/dtdsnnidn.php");
 urltarget.searchParams.set("nidn",carinidn);
 
 const gh = new XMLHttpRequest();

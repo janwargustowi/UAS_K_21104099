@@ -2,7 +2,7 @@ let qs = window.location.search;
 let urlp = new URLSearchParams(qs);
 let carikode = urlp.get("kode");
 
-let urltarget = new URL("http://localhost/febri/server/dtmatkulkode.php");
+let urltarget = new URL("http://localhost/UAS_K_21104099/server/dtmatkulkode.php");
 urltarget.searchParams.set("kode",carikode);
 
 const gh = new XMLHttpRequest();

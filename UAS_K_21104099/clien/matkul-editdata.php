@@ -63,6 +63,6 @@
   document.getElementById("sukses").style.display="none";
   document.getElementById("gagal").style.display="none";
   function batal(){
-      location.replace("http://localhost/febri/client/index.php?pg=mk");
+      location.replace("http://localhost/UAS_K_21104099/client/index.php?pg=mk");
   }
 </script>

@@ -2,7 +2,7 @@ let qs = window.location.search;
 let urlp = new URLSearchParams(qs);
 let carinim = urlp.get("nim");
 
-let urltarget = new URL("http://localhost/febri/server/dtmhsnim.php");
+let urltarget = new URL("http://localhost/UAS_K_21104099/server/dtmhsnim.php");
 urltarget.searchParams.set("nim",carinim);
 
 const gh = new XMLHttpRequest();

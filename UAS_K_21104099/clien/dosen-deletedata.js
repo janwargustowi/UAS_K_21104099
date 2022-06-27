@@ -6,7 +6,7 @@ function dosendeletedata(){
     console.log(dta)
 
     xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST","http://localhost/febri/server/dtdosen-hapusdata.php");
+    xmlhttp.open("POST","http://localhost/UAS_K_21104099/server/dtdosen-hapusdata.php");
     xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     xmlhttp.send(dta);
 

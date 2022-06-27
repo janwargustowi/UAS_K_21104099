@@ -1,7 +1,7 @@
 <div id="konten2"></div>
 <script>
   const xmlhttp = new XMLHttpRequest()
-  xmlhttp.open("GET","http://localhost/febri/server/homepage-matkul.php")
+  xmlhttp.open("GET","http://localhost/UAS_K_21104099/server/homepage-matkul.php")
   xmlhttp.send()
 
   xmlhttp.onload = function(){

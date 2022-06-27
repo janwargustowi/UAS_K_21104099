@@ -56,6 +56,6 @@
   document.getElementById("gagal").style.display="none";
   document.getElementById("sembunyi").style.display="none";
   function batal(){
-      location.replace("http://localhost/febri/client/index.php?pg=dsn");
+      location.replace("http://localhost/UAS_K_21104099/client/index.php?pg=dsn");
   }
 </script>
